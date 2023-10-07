@@ -4,7 +4,7 @@ With how fast things are moving in the Dev+AI space, a shorthand for the communi
 
 We started this repository based on our experiences as part of the [Continue community](https://github.com/continuedev/continue). Feel free to suggest improvements and help us keep it up-to-date by opening a pull request!
 
-This post was also published on the [Continue Blog]().
+This post was also published on the [Continue Blog](https://blog.continue.dev/what-llm-to-use/).
 
 ## What LLMs are there?
 
