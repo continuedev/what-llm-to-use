@@ -1,0 +1,43 @@
+Name,Creator,Base,ParameterCount1,ParameterCount2,ParameterCount3,ParameterCount4,License,URL
+Claude 2,Anthropic,Claude,Unknown,N/A,N/A,N/A,Proprietary,https://www.anthropic.com/index/claude-2
+NexusRaven-13B,Nexusflow,CodeLlama,13B,N/A,N/A,N/A,Llama 2 Community,https://huggingface.co/Nexusflow/NexusRaven-13B
+Codellama-13b-oasst-sft-v10,OpenAssistant,CodeLlama,13B,N/A,N/A,N/A,Llama 2 Community,https://huggingface.co/OpenAssistant/codellama-13b-oasst-sft-v10
+Phind-CodeLlama-34B-Python-v1,Phind,CodeLlama,34B,N/A,N/A,N/A,Llama 2 Community,https://huggingface.co/Phind/Phind-CodeLlama-34B-Python-v1
+Phind-CodeLlama-34B-v2,Phind,CodeLlama,34B,N/A,N/A,N/A,Llama 2 Community,https://huggingface.co/Phind/Phind-CodeLlama-34B-v2
+WizardCoder-Python-34B-V1.0,WizardLM,CodeLlama,34B,13B,N/A,N/A,Llama 2 Community,https://huggingface.co/WizardLM/WizardCoder-Python-34B-V1.0
+Falcon,TII UAE,Falcon,40B,7B,N/A,N/A,Apache 2.0,https://huggingface.co/collections/tiiuae/falcon-64fb432660017eeec9837b5a
+Falcon Instruct,TII UAE,Falcon,40B,7B,N/A,N/A,Apache 2.0,https://huggingface.co/collections/tiiuae/falcon-64fb432660017eeec9837b5a
+GPT-3.5 Turbo,OpenAI,GPT,Unknown,N/A,N/A,N/A,Proprietary,https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates
+GPT-4,OpenAI,GPT,Unknown,N/A,N/A,N/A,Proprietary,https://openai.com/research/gpt-4
+CodeUp-Llama-2,DeepSE,Llama 2,13B,7B,N/A,N/A,OpenRAIL++,https://huggingface.co/deepse/CodeUp-Llama-2-13b-chat-hf
+Vicuna-v1.5,LM Sys,Llama 2,13B,N/A,N/A,N/A,Llama 2 Community,https://huggingface.co/lmsys/vicuna-13b-v1.5
+Llama-2,Meta,Llama 2,70B,13B,7B,N/A,Llama 2 Community,https://ai.meta.com/llama/
+Llama 2 Chat,Meta,Llama 2,70B,13B,7B,N/A,Llama 2 Community,https://ai.meta.com/llama/
+Nous-Hermes-Llama2,Nous Research,Llama 2,13B,N/A,N/A,N/A,Llama 2 Community,https://huggingface.co/NousResearch/Nous-Hermes-13b
+Redmond-Puffin,Nous Research,Llama 2,13B,N/A,N/A,N/A,Llama 2 Community,https://huggingface.co/NousResearch/Redmond-Puffin-13B
+NSQL-Llama-2-7B,Number Station,Llama 2,7B,N/A,N/A,N/A,Llama 2 Community,https://huggingface.co/NumbersStation/nsql-llama-2-7B
+LLaMA 2 SFT v10 ,OpenAssistant,Llama 2,70B,N/A,N/A,N/A,Llama 2 Community,https://huggingface.co/OpenAssistant/llama2-70b-oasst-sft-v10
+OpenChat V3.2,OpenChat,Llama 2,13B,N/A,N/A,N/A,Llama 2 Community,https://huggingface.co/openchat/openchat_v3.2
+Llama 2 32K,Together,Llama 2,7B,N/A,N/A,N/A,Llama 2 Community,https://huggingface.co/togethercomputer/LLaMA-2-7B-32K
+Llama-2-7B-32K-Instruct,Together,Llama 2,7B,N/A,N/A,N/A,Llama 2 Community,https://huggingface.co/togethercomputer/Llama-2-7B-32K-Instruct
+WizardLM V1.2,WizardLM,Llama 2,70B,13B,7B,N/A,Llama 2 Community,https://huggingface.co/WizardLM/WizardLM-13B-V1.2
+CodeLlama,Meta,Llama2,34B,13B,7B,N/A,Llama 2 Community,https://ai.meta.com/blog/code-llama-large-language-model-coding/
+CodeLlama-Instruct,Meta,Llama2,34B,13B,7B,N/A,Llama 2 Community,https://ai.meta.com/blog/code-llama-large-language-model-coding/
+CodeLlama-Python,Meta,Llama2,34B,13B,7B,N/A,Llama 2 Community,https://ai.meta.com/blog/code-llama-large-language-model-coding/
+Mistral-7B-OpenOrca,Alignment Lab AI,Mistral,7B,N/A,N/A,N/A,Apache 2.0,https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca
+SQLCoder-7B,Defog,Mistral,7B,N/A,N/A,N/A,CC-BY-SA-4.0,https://huggingface.co/defog/sqlcoder-7b
+Mistral-7B,Mistral AI,Mistral,7B,N/A,N/A,N/A,Apache 2.0,https://huggingface.co/mistralai/Mistral-7B-v0.1
+Mistral-7b-Instruct,Mistral AI,Mistral,7B,N/A,N/A,N/A,Apache 2.0,https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF
+Mistralic-7B-1,SkunkworksAI,Mistral,7B,N/A,N/A,N/A,Apache 2.0,https://huggingface.co/SkunkworksAI/Mistralic-7B-1
+PaLM 2,Google,PaLM,340B,N/A,N/A,N/A,Proprietary,https://ai.google/discover/palm2/
+Pythia,EleutherAI,Pythia,12B,7B,3B,1B,Apache 2.0,https://huggingface.co/EleutherAI/pythia-12b
+Open-Assistant Pythia SFT-4,OpenAssistant,Pythia,12B,N/A,N/A,N/A,Apache 2.0,https://huggingface.co/OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5
+Pythia-Chat-Base,Together,Pythia,7B,N/A,N/A,N/A,Apache 2.0,https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B
+Qwen,Alibaba Cloud,Qwen,14B,7B,N/A,N/A,Tongyi Qianwen,https://huggingface.co/Qwen/Qwen-14B
+Qwen-Chat,Alibaba Cloud,Qwen,14B,7B,N/A,N/A,Tongyi Qianwen,https://github.com/QwenLM/Qwen
+StableCode,Stability AI,Stable,3B,N/A,N/A,N/A,StableCode Research License,https://huggingface.co/collections/stabilityai/stablecode-64f9dfb4ebc8a1be0a3f7650
+Stable LM,Stability AI,Stable,7B,3B,N/A,N/A,CC-BY-SA-4.0,https://huggingface.co/collections/stabilityai/stable-lm-650852cfd55dd4e15cdcb30a
+Open-Assistant StableLM SFT-7,OpenAssistant,Stable LM,7B,N/A,N/A,N/A,CC-BY-SA-4.0,https://huggingface.co/OpenAssistant/stablelm-7b-sft-v7-epoch-3
+StarCoder,BigCode,StarCoder,15B,N/A,N/A,N/A,BigCode OpenRAIL-M,https://huggingface.co/bigcode/starcoder
+SQLCoder2,Defog,Starcoder,15B,N/A,N/A,N/A,CC-BY-SA-4.0,https://huggingface.co/defog/sqlcoder2
+WizardCoder-15B-V1.0 ,WizardLM,StarCoder,15B,N/A,N/A,N/A,BigCode OpenRAIL-M,https://huggingface.co/WizardLM/WizardCoder-15B-V1.0
