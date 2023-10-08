@@ -18,21 +18,21 @@ You can find a CSV that includes all of these models and information about them 
 
 ### How do folks decide?
 
-The first choice you typically make is whether you are going to use an **open-source model** or a **commercial model**:
+The first choice you typically make is whether you are going to use an **open-source** or a **commercial** model:
 
-- You usually select an **open-source LLM** when you want to keep your code within your environment, have enough available memory, want to keep your costs low, want to be able to manage and optimize everything end-to-end, etc.
-- You usually select a **commercial LLM** when you want the best model, prefer an easy and reliable setup, don’t have a lot of available memory, don’t mind your code leaving your environment, are not deterred by cost concerns, etc.
+- You usually select an **open-source** LLM when you want to keep your code within your environment, have enough available memory, want to keep your costs low, or want to be able to manage and optimize everything end-to-end.
+- You usually select a **commercial** LLM when you want the best model, prefer an easy and reliable setup, don’t have a lot of available memory, don’t mind your code leaving your environment, or are not deterred by cost concerns.
 
-If you decide to use an **open-source LLM**, your next decision is whether to set up the model on your local machine or on a hosted model provider:
+If you decide to use an **open-source** LLM, your next decision is whether to set up the model on your local machine or on a hosted model provider:
 
-- You usually opt to use an open-source model on your *local machine* when you have enough available memory, want free usage, want to be able to use the model without needing an Internet connection, etc.
-- You usually opt to use an open-source model on a *hosted provider* when you want the best open-source model, don’t have a lot of available memory on your local machine, want the model to serve multiple people, etc.
+- You usually opt to use an open-source model on your _local machine_ when you have enough available memory, want free usage, or want to be able to use the model without needing an Internet connection.
+- You usually opt to use an open-source model on a _hosted provider_ when you want the best open-source model, don’t have a lot of available memory on your local machine, or want the model to serve multiple people.
 
-If you decide to use a **commercial model**, they you get your API keys and try playing with each of them. You typically compare them based on the quality of the suggestions and the cost to use. 
+If you decide to use a **commercial** model, you'll typically obtain API keys and play with multiple of them for comparison. Both the quality of the suggestions and the cost to use can be important criteria.
 
 ### Open Source
 
-*From most popular to least popular:*
+_From most popular to least popular:_
 
 #### 1. Code Llama
 
@@ -40,17 +40,17 @@ If you decide to use a **commercial model**, they you get your API keys and try 
     <summary>Details</summary>
 
     Creator: Meta
-    
+
     Overview: Code Llama is built on top of Llama 2, fine-tuned for generating and discussing code.
-    
-    Parameters: 7B, 13B, 34B 
-    
+
+    Parameters: 7B, 13B, 34B
+
     Base: Llama 2
-    
+
     Date released: August 24th, 2023
-    
+
     License: Llama 2 Community
-    
+
 </details>
 
 #### 2. WizardCoder
@@ -150,7 +150,7 @@ If you decide to use a **commercial model**, they you get your API keys and try 
 
 ### Commercial
 
-*From most popular to least popular:*
+_From most popular to least popular:_
 
 #### 1. GPT-4
 
@@ -195,3 +195,9 @@ If you decide to use a **commercial model**, they you get your API keys and try 
     Overview: The Google PaLM API is currently in public preview; you can try it via Google Makersuite.
 
 </details>
+
+
+
+## Contributing
+
+If you see a model missing or want to share an opinion, we welcome you to open a PR or an issue! We hope to maintain a community-oriented and up-to-date index of the most helpful language models for coding.
