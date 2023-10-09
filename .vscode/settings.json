@@ -1,8 +1,0 @@
-{
-    "python.analysis.extraPaths": [
-        "/Users/ty/.vscode/extensions/continue.continue-0.1.7-darwin-arm64"
-    ],
-    "python.autoComplete.extraPaths": [
-        "/Users/ty/.vscode/extensions/continue.continue-0.1.7-darwin-arm64"
-    ]
-}
