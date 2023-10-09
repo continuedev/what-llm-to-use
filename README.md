@@ -94,7 +94,7 @@ This is a list of the **open-source** LLMs that developers are using while codin
 
 #### 5. StarCoder
 
-[StarCoder]() is a 15B parameter LLM trained by BigCode, which was ahead of its time when it was released in May. It was trained on 80+ programming languages from The Stack (v1.2) with opt-out requests excluded. It is not an instruction model and commands like "Write a function that computes the square root" do not work well. However, by using the [Tech Assistant prompt](https://huggingface.co/datasets/bigcode/ta-prompt) you can make it more helpful.
+[StarCoder](https://huggingface.co/blog/starcoder) is a 15B parameter LLM trained by BigCode, which was ahead of its time when it was released in May. It was trained on 80+ programming languages from The Stack (v1.2) with opt-out requests excluded. It is not an instruction model and commands like "Write a function that computes the square root" do not work well. However, by using the [Tech Assistant prompt](https://huggingface.co/datasets/bigcode/ta-prompt) you can make it more helpful.
 
 <details>
     <summary>Details</summary>
@@ -109,9 +109,7 @@ This is a list of the **open-source** LLMs that developers are using while codin
 
 #### 6. Llama2
 
-[Llama 2] is an LLM trained by Meta for generating and discussing code
-
-Good for English conversations but struggles to make code edits
+[Llama 2](https://ai.meta.com/llama/#inside-the-model) is an LLM trained by Meta on 2 trillion tokens. It is the most popular open source LLM overall, so some developers use it, despite it not being as good as many of the models above at making code edits. It is also important because Code Llama, the most popular LLM for coding, is built on top of it, which in turn is the foundation for WizardCoder and Phind-CodeLlama.
 
 <details>
     <summary>Details</summary>
@@ -130,7 +128,7 @@ This is a list of the **commercial** LLMs that developers are using while coding
 
 #### 1. GPT-4
 
-[GPT-4]() from OpenAI is generally considered to be the best LLM to use while coding. It is quite helpful when generating and discussing code. However, it requires you to send your code to OpenAI via their API and can be quite expensive. Nevertheless, it is the most popular LLM for coding overall and the majority of developers use it while coding at this point. All OpenAI API users who made a successful payment of $1 or more before July 6, 2023 were given access to GPT-4, and they plan to open up access to all developers soon.
+[GPT-4](openai.com/research/gpt-4) from OpenAI is generally considered to be the best LLM to use while coding. It is quite helpful when generating and discussing code. However, it requires you to send your code to OpenAI via their API and can be quite expensive. Nevertheless, it is the most popular LLM for coding overall and the majority of developers use it while coding at this point. All OpenAI API users who made a successful payment of $1 or more before July 6, 2023 were given access to GPT-4, and they plan to open up access to all developers soon.
 
 #### 2. GPT-3.5 Turbo
 
