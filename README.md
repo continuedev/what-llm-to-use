@@ -25,179 +25,127 @@ The first choice you typically make is whether you are going to use an **open-so
 
 If you decide to use an **open-source** LLM, your next decision is whether to set up the model on your local machine or on a hosted model provider:
 
-- You usually opt to use an open-source model on your _local machine_ when you have enough available memory, want free usage, or want to be able to use the model without needing an Internet connection.
-- You usually opt to use an open-source model on a _hosted provider_ when you want the best open-source model, don’t have a lot of available memory on your local machine, or want the model to serve multiple people.
+- You usually opt to use an open-source LLM on your _local machine_ when you have enough available memory, want free usage, or want to be able to use the model without needing an Internet connection.
+- You usually opt to use an open-source LLM on a _hosted provider_ when you want the best open-source model, don’t have a lot of available memory on your local machine, or want the model to serve multiple people.
 
-If you decide to use a **commercial** model, you'll typically obtain API keys and play with multiple of them for comparison. Both the quality of the suggestions and the cost to use can be important criteria.
+If you decide to use a **commercial** LLM, you'll typically obtain API keys and play with multiple of them for comparison. Both the quality of the suggestions and the cost to use can be important criteria.
 
 ### Open Source
 
-_From most popular to least popular:_
+This is a list of the **open-source** LLMs that developers are using while coding, roughly ordered from most popular to least popular, as of October 2023.
 
 #### 1. Code Llama
+
+[Code Llama](https://about.fb.com/news/2023/08/code-llama-ai-for-coding/) is an LLM trained by Meta for generating and discussing code. It is built on top of Llama 2. Even though it is below WizardCoder and Phind-CodeLlama on the [Big Code Models Leaderboard](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard), it is the base model for both of them. It also comes in a variety of sizes: 7B, 13B, and 34B, which makes it popular to use on local machines as well as with hosted providers. At this point, it is the most well-known open-source base model for coding and is leading the open-source effort to create coding capable LLMs.
 
 <details>
     <summary>Details</summary>
 
     Creator: Meta
-
-    Overview: Code Llama is built on top of Llama 2, fine-tuned for generating and discussing code.
-
-    Parameters: 7B, 13B, 34B
-
-    Base: Llama 2
-
     Date released: August 24th, 2023
-
     License: Llama 2 Community
+    Base model: Llama 2
+    Parameters: 7B, 13B, 34B
 
 </details>
 
 #### 2. WizardCoder
 
+[WizardCoder](https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder) is an LLM built on top of Code Llama by the WizardLM team. The [Evol-Instruct method](https://x.com/WizardLM_AI/status/1705551243421090207?s=20) is adapted for coding tasks to create a training dataset, which is used to fine-tune Code Llama. It comes in the same sizes as Code Llama: 7B, 13B, and 34B. As a result, it is the most popular open-source instruction-tuned LLM so far.
+
 <details>
     <summary>Details</summary>
     
     Creator: WizardLM
-    
-    Overview: The Evol-Instruct method is adapted for coding tasks to create a training dataset, which is used to fine-tune StarCoder for the 15B model and Code Llama for the 34B model.
-    
-    Parameters: 15B, 34B
-    
-    Base: StarCoder (15B) / Code Llama (34B)
-    
     Date released: August 26th, 2023
-    
-    License: OpenRAIL-M (15B) / Llama 2 Community (34B)
+    License: Llama 2 Community
+    Base model: Code Llama
+    Parameters: 7B, 13B, 34B
     
 </details>
 
 #### 3. Phind-CodeLlama
 
+[Phind-CodeLlama](https://www.phind.com/blog/code-llama-beats-gpt4) is an LLM built on top of Code Llama by Phind. A proprietary dataset of ~80k high-quality programming problems and solutions was used to fine-tune Code Llama. That fine-tuned model was then further fine-tuned on 1.5B additional tokens. It currently leads on the [Big Code Models Leaderboard](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard). However, it is only available as a 34B parameter model, so it requires more available memory to use it.
+
 <details>
     <summary>Details</summary>
     
     Creator: Phind
-    
-    Overview: A proprietary dataset of ~80k high-quality programming problems and solutions was used to fine-tuned Code Llama before being further fine-tuned on 1.5B additional tokens.
-    
-    Parameters: 34B
-    
-    Base: Code Llama
-    
     Date released: August 28th, 2023
-    
     License: Llama 2 Community
-    
+    Base model: Code Llama
+    Parameters: 34B
+
 </details>
 
 #### 4. Mistral
+
+[Mistral](mistral.ai/news/announcing-mistral-7b) is a 7B parameter LLM trained by Mistal AI. It is the most recently released model on this list, having dropped at the end of September. Mistal AI says that it “approaches CodeLlama 7B performance on code, while remaining good at English tasks”. Despite only being available in the one small size, people are quite excited about it in the first couple weeks after release. The first fine-tuned LLMs that use it as their base are now beginning to emerge, and we are likely to see more going forward.
 
 <details>
     <summary>Details</summary>
     
     Creator: Mistral AI
-    
-    Overview: The creators claim that it “approaches CodeLlama 7B performance on code, while remaining good at English tasks”.
-    
-    Parameters: 7B
-    
-    Base: Mistral
-    
     Date released: September 27th, 2023
-    
     License: Apache 2.0
+    Base model: Mistral
+    Parameters: 7B
     
 </details>
 
 #### 5. StarCoder
 
+[StarCoder]() is a 15B parameter LLM trained by BigCode, which was ahead of its time when it was released in May. It was trained on 80+ programming languages from The Stack (v1.2) with opt-out requests excluded. It is not an instruction model and commands like "Write a function that computes the square root" do not work well. However, by using the [Tech Assistant prompt](https://huggingface.co/datasets/bigcode/ta-prompt) you can make it more helpful.
+
 <details>
     <summary>Details</summary>
     
     Creator: BigCode
-    
-    Overview: The model was trained on trained on 80+ programming languages from The Stack (v1.2), with opt-out requests excluded. As such it is not an instruction model and commands like "Write a function that computes the square root." do not work well. However, by using the [Tech Assistant prompt](https://huggingface.co/datasets/bigcode/ta-prompt) you can make it more helpful.
-    
-    Parameters: 15B
-    
-    Base: StarCoder
-    
     Date released: May 4th, 2023
-    
     License: OpenRAIL-M
+    Base model: StarCoder
+    Parameters: 15B
     
 </details>
 
 #### 6. Llama2
 
+[Llama 2] is an LLM trained by Meta for generating and discussing code
+
+Good for English conversations but struggles to make code edits
+
 <details>
     <summary>Details</summary>
     
     Creator: Meta
-    
-    Overview: Good for English conversations but struggles to make code edits
-    
-    Parameters: 7B, 13B, 70B
-    
-    Base: Llama 2
-    
     Date released: July 18th, 2023
-    
     License: Llama 2 Community
+    Base model: Llama 2
+    Parameters: 7B, 13B, 70B
     
 </details>
 
 ### Commercial
 
-_From most popular to least popular:_
+This is a list of the **commercial** LLMs that developers are using while coding, roughly ordered from most popular to least popular, as of October 2023.
 
 #### 1. GPT-4
 
-<details>
-    <summary>Details</summary>
-    
-    Creator: OpenAI
-    
-    Overview: GPT-4 is generally considered to be the best LLM to use while coding. However, it is quite expensive and requires you to send your code to OpenAI via their API.
-    
-</details>
+[GPT-4]() from OpenAI is generally considered to be the best LLM to use while coding. It is quite helpful when generating and discussing code. However, it requires you to send your code to OpenAI via their API and can be quite expensive. Nevertheless, it is the most popular LLM for coding overall and the majority of developers use it while coding at this point. All OpenAI API users who made a successful payment of $1 or more before July 6, 2023 were given access to GPT-4, and they plan to open up access to all developers soon.
 
 #### 2. GPT-3.5 Turbo
 
-<details>
-    <summary>Details</summary>
-    
-    Creator: OpenAI
-    
-    Overview: GPT-3.5 is cheaper and faster than GPT-4; however, its suggestions are not nearly as good.
-    
-</details>
+[GPT-3.5 Turbo](https://platform.openai.com/docs/models/gpt-3-5) from OpenAI is cheaper and faster than GPT-4; however, its suggestions are not nearly as helpful. It also requires you to send your code to OpenAI via their API. It is the second most popular LLM for coding overall so far. All developers can use it now after signing up for an OpenAI account.
 
 #### 3. Claude 2
 
-<details>
-    <summary>Details</summary>
-    
-    Creator: Anthropic
-    
-    Overview: Claude 2 is not yet publicly released, but you can request early access.
+[Claude 2](https://www.anthropic.com/index/claude-2) is an LLM trained by Anthropic, which as greatly improved coding skills compared to the first version of Claude. It esspecially excels, relative to other LLMs, when you provide a lot of context. It requires you to send your code to Anthropic via their API. You must apply to get access to Claude 2 at this point.
 
-</details>
+#### 4. PaLM 2
 
-##### 4. PaLM 2
-
-<details>
-    <summary>Details</summary>
-    
-    Creator: Google
-
-    Overview: The Google PaLM API is currently in public preview; you can try it via Google Makersuite.
-
-</details>
-
-
+[PaLM 2](ai.google/discover/palm2) is an LLM trained by Google. To try it out, you must send your code to Google via the PaLM API after obtaining an API key via MakerSuite, both of which are currently in public preview.
 
 ## Contributing
 
-If you see a model missing or want to share an opinion, we welcome you to open a PR or an issue! We hope to maintain a community-oriented and up-to-date index of the most helpful language models for coding.
+If you see a model missing or want to share an opinion, we welcome you to open a PR or an issue! We hope to maintain a community-driven and up-to-date index of the most helpful language models for coding.

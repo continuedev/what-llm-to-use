@@ -4,7 +4,7 @@ NexusRaven-13B,Nexusflow,CodeLlama,13B,N/A,N/A,N/A,Llama 2 Community,https://hug
 Codellama-13b-oasst-sft-v10,OpenAssistant,CodeLlama,13B,N/A,N/A,N/A,Llama 2 Community,https://huggingface.co/OpenAssistant/codellama-13b-oasst-sft-v10
 Phind-CodeLlama-34B-Python-v1,Phind,CodeLlama,34B,N/A,N/A,N/A,Llama 2 Community,https://huggingface.co/Phind/Phind-CodeLlama-34B-Python-v1
 Phind-CodeLlama-34B-v2,Phind,CodeLlama,34B,N/A,N/A,N/A,Llama 2 Community,https://huggingface.co/Phind/Phind-CodeLlama-34B-v2
-WizardCoder-Python-34B-V1.0,WizardLM,CodeLlama,34B,13B,N/A,N/A,Llama 2 Community,https://huggingface.co/WizardLM/WizardCoder-Python-34B-V1.0
+WizardCoder-Python-V1.0,WizardLM,CodeLlama,34B,13B,7B,N/A,Llama 2 Community,https://huggingface.co/WizardLM/WizardCoder-Python-34B-V1.0
 Falcon,TII UAE,Falcon,40B,7B,N/A,N/A,Apache 2.0,https://huggingface.co/collections/tiiuae/falcon-64fb432660017eeec9837b5a
 Falcon Instruct,TII UAE,Falcon,40B,7B,N/A,N/A,Apache 2.0,https://huggingface.co/collections/tiiuae/falcon-64fb432660017eeec9837b5a
 GPT-3.5 Turbo,OpenAI,GPT,Unknown,N/A,N/A,N/A,Proprietary,https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates
