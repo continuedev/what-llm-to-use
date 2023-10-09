@@ -64,7 +64,7 @@ This is a list of the **open-source** LLMs that developers are using while codin
 
 #### 3. Phind-CodeLlama
 
-[Phind-CodeLlama](https://www.phind.com/blog/code-llama-beats-gpt4) is an LLM built on top of Code Llama by Phind. A proprietary dataset of ~80k high-quality programming problems and solutions was used to fine-tune Code Llama. That fine-tuned model was then further fine-tuned on 1.5B additional tokens. It currently leads on the [Big Code Models Leaderboard](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard). However, it is only available as a 34B parameter model, so it requires more available memory to use it.
+[Phind-CodeLlama](https://www.phind.com/blog/code-llama-beats-gpt4) is an LLM built on top of Code Llama by Phind. A proprietary dataset of ~80k high-quality programming problems and solutions was used to fine-tune Code Llama. That fine-tuned model was then further fine-tuned on 1.5B additional tokens. It currently leads on the [Big Code Models Leaderboard](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard). However, it is only available as a 34B parameter model, so it requires more available memory to be used.
 
 <details>
     <summary>Details</summary>
@@ -136,7 +136,7 @@ This is a list of the **commercial** LLMs that developers are using while coding
 
 #### 3. Claude 2
 
-[Claude 2](https://www.anthropic.com/index/claude-2) is an LLM trained by Anthropic, which as greatly improved coding skills compared to the first version of Claude. It esspecially excels, relative to other LLMs, when you provide a lot of context. It requires you to send your code to Anthropic via their API. You must apply to get access to Claude 2 at this point.
+[Claude 2](https://www.anthropic.com/index/claude-2) is an LLM trained by Anthropic, which has greatly improved coding skills compared to the first version of Claude. It especially excels, relative to other LLMs, when you provide a lot of context. It requires you to send your code to Anthropic via their API. You must apply to get access to Claude 2 at this point.
 
 #### 4. PaLM 2
 
