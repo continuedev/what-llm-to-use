@@ -79,7 +79,7 @@ This is a list of the **open-source** LLMs that developers are using while codin
 
 #### 4. Mistral
 
-[Mistral](mistral.ai/news/announcing-mistral-7b) is a 7B parameter LLM trained by Mistal AI. It is the most recently released model on this list, having dropped at the end of September. Mistal AI says that it “approaches CodeLlama 7B performance on code, while remaining good at English tasks”. Despite only being available in the one small size, people are quite excited about it in the first couple weeks after release. The first fine-tuned LLMs that use it as their base are now beginning to emerge, and we are likely to see more going forward.
+[Mistral](https://mistral.ai/news/announcing-mistral-7b) is a 7B parameter LLM trained by Mistal AI. It is the most recently released model on this list, having dropped at the end of September. Mistal AI says that it “approaches CodeLlama 7B performance on code, while remaining good at English tasks”. Despite only being available in the one small size, people are quite excited about it in the first couple weeks after release. The first fine-tuned LLMs that use it as their base are now beginning to emerge, and we are likely to see more going forward.
 
 <details>
     <summary>Details</summary>
@@ -128,7 +128,7 @@ This is a list of the **commercial** LLMs that developers are using while coding
 
 #### 1. GPT-4
 
-[GPT-4](openai.com/research/gpt-4) from OpenAI is generally considered to be the best LLM to use while coding. It is quite helpful when generating and discussing code. However, it requires you to send your code to OpenAI via their API and can be quite expensive. Nevertheless, it is the most popular LLM for coding overall and the majority of developers use it while coding at this point. All OpenAI API users who made a successful payment of $1 or more before July 6, 2023 were given access to GPT-4, and they plan to open up access to all developers soon.
+[GPT-4](https://openai.com/research/gpt-4) from OpenAI is generally considered to be the best LLM to use while coding. It is quite helpful when generating and discussing code. However, it requires you to send your code to OpenAI via their API and can be quite expensive. Nevertheless, it is the most popular LLM for coding overall and the majority of developers use it while coding at this point. All OpenAI API users who made a successful payment of $1 or more before July 6, 2023 were given access to GPT-4, and they plan to open up access to all developers soon.
 
 #### 2. GPT-3.5 Turbo
 
@@ -140,7 +140,7 @@ This is a list of the **commercial** LLMs that developers are using while coding
 
 #### 4. PaLM 2
 
-[PaLM 2](ai.google/discover/palm2) is an LLM trained by Google. To try it out, you must send your code to Google via the PaLM API after obtaining an API key via MakerSuite, both of which are currently in public preview.
+[PaLM 2](https://ai.google/discover/palm2) is an LLM trained by Google. To try it out, you must send your code to Google via the PaLM API after obtaining an API key via MakerSuite, both of which are currently in public preview.
 
 ## Contributing
 
