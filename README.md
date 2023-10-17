@@ -145,3 +145,5 @@ This is a list of the **commercial** LLMs that developers are using while coding
 ## Contributing
 
 If you see a model missing or want to share an opinion, we welcome you to open a PR or an issue! We hope to maintain a community-driven and up-to-date index of the most helpful language models for coding.
+
+*If you liked this blog post and want to read more about Dev+AI–the community of folks building software with the help of LLMs–in the future, join our monthly newsletter [here](https://continue.dev#newsletter).*
