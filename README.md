@@ -26,6 +26,8 @@ If you decide to use an **open-source** LLM, your next decision is whether to se
 - You usually opt to use an open-source LLM on your _local machine_ when you have enough available memory, want free usage, or want to be able to use the model without needing an Internet connection.
 - You usually opt to use an open-source LLM on a _hosted provider_ when you want the best open-source model, don’t have a lot of available memory on your local machine, or want the model to serve multiple people.
 
+We maintain a guide on how to deploy an open-source code LLM for your team [here](https://github.com/continuedev/deploy-os-code-llm).
+
 If you decide to use a **commercial** LLM, you'll typically obtain API keys and play with multiple of them for comparison. Both the quality of the suggestions and the cost to use can be important criteria.
 
 ### Open Source
