@@ -1,6 +1,6 @@
-# What LLM to use? A perspective from the Dev+AI space
+# What LLM to use? A perspective from the DevAI space
 
-With how fast things are moving in the Dev+AI space, a shorthand for the community of developers building software with the help of large language models (LLMs), it can be challenging to figure out which model to use.
+With how fast things are moving in the DevAI space, a shorthand for the community of developers building software with the help of large language models (LLMs), it can be challenging to figure out which model to use.
 
 We started this repository based on our experiences as part of the [Continue community](https://github.com/continuedev/continue). Feel free to suggest improvements and help us keep it up-to-date by opening a pull request!
 
@@ -109,7 +109,22 @@ This is a list of the **open-source** LLMs that developers are using while codin
     
 </details>
 
-#### 6. Llama2
+#### 6. DeepSeek Coder
+
+[DeepSeek Coder](deepseekcoder.github.io) is an LLM trained by DeepSeek AI on 2 trillion tokens. With a dataset made up of over more than 80 programming languages, it's the newest model on this list and has been reported to score quite high on various coding-related benchmarks.
+
+<details>
+    <summary>Details</summary>
+    
+    Creator: DeepSeek AI
+    Date released: November 3rd, 2023
+    License: DeepSeek License Agreement
+    Base model: DeepSeek Coder
+    Parameters: 1.3B, 6.7B, 33B
+    
+</details>
+
+#### 7. Llama2
 
 [Llama 2](https://ai.meta.com/llama/#inside-the-model) is an LLM trained by Meta on 2 trillion tokens. It is the most popular open source LLM overall, so some developers use it, despite it not being as good as many of the models above at making code edits. It is also important because Code Llama, the most popular LLM for coding, is built on top of it, which in turn is the foundation for WizardCoder and Phind-CodeLlama.
 
@@ -148,4 +163,4 @@ This is a list of the **commercial** LLMs that developers are using while coding
 
 If you see a model missing or want to share an opinion, we welcome you to open a PR or an issue! We hope to maintain a community-driven and up-to-date index of the most helpful language models for coding.
 
-*If you liked this blog post and want to read more about Dev+AI–the community of folks building software with the help of LLMs–in the future, join our monthly newsletter [here](https://continue.dev#newsletter).*
+*If you liked this blog post and want to read more about DevAI–the community of folks building software with the help of LLMs–in the future, join our monthly newsletter [here](https://continue.dev#newsletter).*
