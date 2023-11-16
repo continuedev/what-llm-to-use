@@ -147,15 +147,19 @@ This is a list of the **commercial** LLMs that developers are using while coding
 
 [GPT-4](https://openai.com/research/gpt-4) from OpenAI is generally considered to be the best LLM to use while coding. It is quite helpful when generating and discussing code. However, it requires you to send your code to OpenAI via their API and can be quite expensive. Nevertheless, it is the most popular LLM for coding overall and the majority of developers use it while coding at this point. All OpenAI API users who made a successful payment of $1 or more before July 6, 2023 were given access to GPT-4, and they plan to open up access to all developers soon.
 
-#### 2. GPT-3.5 Turbo
+#### 2. GPT-4 Turbo
+
+[GPT-4 Turbo](https://openai.com/blog/new-models-and-developer-products-announced-at-devday) from OpenAI is cheaper and faster than GPT-4. It has knowledge cutoff of April 2023 and has a 128k context window. It is currently in preview, as of November 2023, but anyone with an OpenAI API account and existing GPT-4 access can use it.
+
+#### 3. GPT-3.5 Turbo
 
 [GPT-3.5 Turbo](https://platform.openai.com/docs/models/gpt-3-5) from OpenAI is cheaper and faster than GPT-4; however, its suggestions are not nearly as helpful. It also requires you to send your code to OpenAI via their API. It is the second most popular LLM for coding overall so far. All developers can use it now after signing up for an OpenAI account.
 
-#### 3. Claude 2
+#### 4. Claude 2
 
 [Claude 2](https://www.anthropic.com/index/claude-2) is an LLM trained by Anthropic, which has greatly improved coding skills compared to the first version of Claude. It especially excels, relative to other LLMs, when you provide a lot of context. It requires you to send your code to Anthropic via their API. You must apply to get access to Claude 2 at this point.
 
-#### 4. PaLM 2
+#### 5. PaLM 2
 
 [PaLM 2](https://ai.google/discover/palm2) is an LLM trained by Google. To try it out, you must send your code to Google via the PaLM API after obtaining an API key via MakerSuite, both of which are currently in public preview.
 
