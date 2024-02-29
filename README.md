@@ -111,7 +111,7 @@ This is a list of the **open-source** LLMs that developers are using while codin
 
 #### 6. DeepSeek Coder
 
-[DeepSeek Coder](deepseekcoder.github.io) is an LLM trained by DeepSeek AI on 2 trillion tokens. With a dataset made up of over more than 80 programming languages, it's the newest model on this list and has been reported to score quite high on various coding-related benchmarks.
+[DeepSeek Coder](https://deepseekcoder.github.io) is an LLM trained by DeepSeek AI on 2 trillion tokens. With a dataset made up of over more than 80 programming languages, it's the newest model on this list and has been reported to score quite high on various coding-related benchmarks.
 
 <details>
     <summary>Details</summary>
